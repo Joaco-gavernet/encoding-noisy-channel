@@ -1,4 +1,4 @@
-import numpy as np
+from notebooks.general_utils import *
 
 # Perform polynomial division in GF(2)
 def polynomial_division(dividend, divisor):

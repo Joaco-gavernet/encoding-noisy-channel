@@ -1,5 +1,4 @@
-import numpy as np
-from itertools import combinations
+from notebooks.general_utils import *
 
 def noisy_channel(v, A=1, n=14, k=10, EbfN0=10):
     Es = A**2

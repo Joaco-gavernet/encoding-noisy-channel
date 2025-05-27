@@ -1,5 +1,5 @@
-from itertools import batched 
-import queue
+from notebooks.general_utils import *
+
 
 def build_huffman_tree(imarray, x=1):
     histogram = {}

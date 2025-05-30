@@ -33,6 +33,7 @@ G = np.hstack((np.eye(k), P))
 H = np.hstack((P.T, np.eye(n-k)))
 tc = 1
 td = 2
+dmin = 3
 
 # Choose power of extended source S^x
 x = 2

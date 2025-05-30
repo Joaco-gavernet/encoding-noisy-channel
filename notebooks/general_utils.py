@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
 from math import comb
-from scipy.special import erfc
+from scipy.special import erfc, erfcinv
 from itertools import batched, combinations
 
 print("Notebook general setup done.") 

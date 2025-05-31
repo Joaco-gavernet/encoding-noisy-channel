@@ -16,7 +16,6 @@ if module_path not in sys.path:
 # Parameters
 n = 14  # codeword length
 k = 10   # source word length
-EbfN0 = 1  # Signal to noise ratio (in times)
 
 # Proposed parity matrix
 P = np.matrix([[1, 1, 0, 0],

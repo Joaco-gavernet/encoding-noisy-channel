@@ -77,3 +77,6 @@ def detect_message(received_codewords, H, n):
             corrected_codewords[i] = np.zeros(n, dtype=int)
                 
     return corrected_codewords
+
+def Q(x):
+    return 0.5 * erfc(x / np.sqrt(2))
